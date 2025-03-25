@@ -18,10 +18,8 @@ plugins:
 # Theme customization
 show_downloads: true
 github:
-  zip_url: https://github.com/DEmodoriGatsuO/minisoup/archive/refs/heads/main.zip
-  tar_url: https://github.com/DEmodoriGatsuO/minisoup/archive/refs/heads/main.tar.gz
   repository_url: https://github.com/DEmodoriGatsuO/minisoup
-  owner_name: YourName
+  owner_name: DEmodoriGatsuO
   owner_url: https://github.com/DEmodoriGatsuO
 
 # Navigation
@@ -31,21 +29,6 @@ header_pages:
   - use-cases/index.md
   - technical/index.md
   - examples/index.md
-
-# Collections (for organizing different types of content)
-collections:
-  operations:
-    output: true
-    permalink: /:collection/:name/
-  use-cases:
-    output: true
-    permalink: /:collection/:name/
-  technical:
-    output: true
-    permalink: /:collection/:name/
-  examples:
-    output: true
-    permalink: /:collection/:name/
 
 # Default front matter for pages
 defaults:

@@ -79,7 +79,7 @@ In the Microsoft Power Automate environment, options for HTML parsing are limite
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/minisoup/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DEmodoriGatsuO/minisoup/blob/main/LICENSE) file for details.
 
 <style>
 .grid-container {
