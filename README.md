@@ -1,7 +1,7 @@
 # MiniSoup HTML Parser
 
 <p align="center">
-  <img src="docs/images/logo.png" alt="MiniSoup Logo" width="200"/>
+  <img src="docs/assets/images/logo.png" alt="MiniSoup Logo" width="200"/>
 </p>
 
 A lightweight HTML parsing library for Microsoft Power Automate custom connectors, inspired by Beautiful Soup. MiniSoup enables web scraping, data extraction, and HTML analysis directly within Power Automate flows without requiring external services.

@@ -1,0 +1,80 @@
+# Jekyll configuration for MiniSoup documentation
+
+# Site settings
+title: MiniSoup HTML Parser
+description: >-
+  A lightweight HTML parsing library for Microsoft Power Automate custom connectors,
+  inspired by Beautiful Soup. MiniSoup enables web scraping, data extraction, and 
+  HTML analysis directly within Power Automate flows without requiring external services.
+url: "" # the base hostname & protocol for your site
+baseurl: "/minisoup" # the subpath of your site, e.g. /blog
+
+# Build settings
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Theme customization
+show_downloads: true
+github:
+  zip_url: https://github.com/yourusername/minisoup/archive/refs/heads/main.zip
+  tar_url: https://github.com/yourusername/minisoup/archive/refs/heads/main.tar.gz
+  repository_url: https://github.com/yourusername/minisoup
+  owner_name: YourName
+  owner_url: https://github.com/yourusername
+
+# Navigation
+header_pages:
+  - getting-started.md
+  - operations/index.md
+  - use-cases/index.md
+  - technical/index.md
+  - examples/index.md
+
+# Collections (for organizing different types of content)
+collections:
+  operations:
+    output: true
+    permalink: /:collection/:name/
+  use-cases:
+    output: true
+    permalink: /:collection/:name/
+  technical:
+    output: true
+    permalink: /:collection/:name/
+  examples:
+    output: true
+    permalink: /:collection/:name/
+
+# Default front matter for pages
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "operations"
+    values:
+      category: "Operations"
+  -
+    scope:
+      path: "use-cases"
+    values:
+      category: "Use Cases"
+  -
+    scope:
+      path: "technical"
+    values:
+      category: "Technical Documentation"
+  -
+    scope:
+      path: "examples"
+    values:
+      category: "Examples"
+
+# Custom variables
+version: "1.0"
+license: "MIT"
